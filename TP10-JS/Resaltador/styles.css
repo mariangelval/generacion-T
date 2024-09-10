@@ -1,0 +1,7 @@
+*{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.resaltado{
+    background-color: rgb(243, 243, 137);
+    color: red;
+}
