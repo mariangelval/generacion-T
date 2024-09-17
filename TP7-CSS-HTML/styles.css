@@ -1,0 +1,124 @@
+body {
+    background-color: #f5efe7;
+}
+
+/* Estilos adicionales para el header */
+header {
+    background: rgb(218, 83, 146);
+    background: radial-gradient(circle, rgba(218, 83, 146, 1) 0%, rgba(100, 159, 230, 1) 100%);
+    color: #f5efe7;
+    padding: 20px 0 60px 0;
+    text-align: center;
+    position: relative;
+}
+
+/* Estilo para la barra de navegación */
+nav {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.header-img {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.descripcion {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+/* Estilos adicionales para la sección de portfolio */
+.tarjeta-img-top {
+    border-radius: 20px;
+}
+
+.tarjeta {
+    border-radius: 20px;
+    text-align: center;
+    padding: 30px;
+}
+
+.tarjeta-titulo {
+    padding-top: 10px;
+}
+
+.portfolio-section {
+    padding: 50px 0;
+}
+
+h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+/*Estilos adicionales para la personalización de 'Sobre mí'*/
+.about-me {
+    margin: 0 auto;
+    text-align: left;
+    background-color: rgba(100, 159, 230, 0.634);
+
+    padding: 50px 0;
+    max-width: 90%;
+    border-radius: 20px;
+    box-shadow: #fff 4px 4px 0 0, rgb(156, 125, 125) 4px 4px 0 1px;
+}
+
+.about-me p {
+    font-size: 18px;
+    max-width: 80%;
+    text-align: justify;
+    margin: 0 auto;
+}
+
+/*Estilos adic*/
+.contacto {
+    margin-top: 80px;
+    padding: 50px 0;
+}
+
+.contacto form {
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+/*Footer*/
+footer {
+    padding-top: 30px;
+}
+
+
+/*BOTÓN PARA ENVIAR*/
+.btn-primary {
+    background-color: white;
+    border-color: white;
+}
+
+.btn-primary:hover {
+    box-shadow: inset 400px 0 0 0 rgba(218, 83, 146, 1);
+    border-color: rgba(218, 83, 146, 1);
+}
+
+.btn {
+    color: rgba(218, 83, 146, 1);
+    border: 2px solid rgba(218, 83, 146, 1);
+    border-radius: 0px;
+    display: inline-block;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 rgba(218, 83, 146, 1);
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+}

@@ -1,0 +1,36 @@
+body {
+    background-color: #fff;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.pan-arriba {
+    width: 500px;
+    height: 60px;
+    background-color: #D4A373;
+    border-radius: 60px 60px 10px 10px;
+    margin: 0px auto;
+}
+.pan-abajo{
+    width: 500px;
+    height: 60px;
+    background-color: #D4A373;
+    border-radius: 10px 10px 60px 60px;
+    margin: 0px auto;
+}
+
+#sombra{
+    border-bottom: 15px solid #C19A6B;
+}
+
+#salchicha {
+    width: 550px;
+    height: 50px;
+    background-color: #cb2c3c;
+    border-radius: 20px;
+    margin: 0px auto;
+}

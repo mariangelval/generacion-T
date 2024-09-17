@@ -1,0 +1,12 @@
+body {
+    background-image: url('./multimedia/fondo.jpeg');
+    height: 100vh;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+.mouse{
+    position: fixed;
+}

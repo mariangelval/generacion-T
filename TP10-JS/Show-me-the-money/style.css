@@ -1,0 +1,13 @@
+.oculto {
+    display: none;
+}
+
+.img-container img {
+    border-radius: 15px;
+    width: 100%;
+    height: auto;
+}
+h1{
+    text-align: center;
+    margin-top: 20px;
+}

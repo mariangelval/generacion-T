@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="images/icono.ico">
+    <title>Mi Portafolio - Mariangel Valerio</title>
+</head>
+
+<body>
+    <!--HEADER-->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">Mariangel Valerio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about-me">Sobre mí</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contacto">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <img src="images/pfp.png" alt="Tu foto" class="header-img">
+            <h1>Mariangel Valerio</h1>
+            <p class="descripcion">Estudiante de programación</p>
+        </div>
+    </header>
+
+    <!--PORTFOLIO-->
+    <div class="portfolio-section">
+        <div class="container">
+            <a name="portfolio"><h2>Portfolio</h2></a>
+            <hr>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="tarjeta">
+                        <img src="images/proyecto1.png" class="tarjeta-img-top" alt="Imagen 1" width="250" height="150">
+                        <div class="card-body">
+                            <h5 class="tarjeta-titulo">Juego: El Secreto del Bosque Perdido</h5>
+                            <p class="tarjeta-texto">Proyecto de historia interactiva hecho con HTML y CSS</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="tarjeta">
+                        <img src="images/proyecto2.png" class="tarjeta-img-top" alt="Imagen 2">
+                        <div class="tarjeta-body">
+                            <h5 class="tarjeta-titulo">DinoPark</h5>
+                            <p class="tarjeta-texto">Página de información sobre un parque temático de dinosaurios hecha
+                                en HTML</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="tarjeta">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Star_Wars_Logo.svg/1024px-Star_Wars_Logo.svg.png"
+                            class="tarjeta-img-top" alt="Imagen 3" height="150" width="250">
+                        <div class="tarjeta-body">
+                            <h5 class="tarjeta-titulo">Star Wars</h5>
+                            <p class="tarjeta-texto">Página de información sobre Star Wars hecha en HTML</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--ACERCA DE MÍ-->
+    <section class="about-me">
+        <div class="container">
+            <a name="about-me"><h2>Acerca de mí</h2></a>
+            <hr>
+            <p class="lead">
+                👩‍💻 Soy Mari y estoy actualmente en el último año de la escuela técnica, especializándome en el área
+                de la
+                computación. Con un sólido fundamento en software y un nivel intermedio alto en inglés, me destaco como
+                una
+                persona responsable, organizada y sociable <br>
+                💡 Soy apasionada de la tecnología y estoy constantemente buscando aprender más sobre las últimas
+                tendencias
+                y desarrollos en el campo. Soy inquisitiva por naturaleza, lo que significa que siempre estoy ansiosa
+                por
+                adquirir nuevos conocimientos y enfrentar desafíos técnicos.
+            </p>
+        </div>
+    </section>
+
+    <!--CONTACTAME-->
+    <section class="contacto">
+        <div class="container">
+            <a name="contacto"><h2>Contactame</h2></a>
+            <hr>
+            <form>
+                <div class="form-group">
+                    <label for="nombre">Nombre</label>
+                    <input class="form-control" id="nombre">
+                </div>
+                <br>
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Correo Electrónico</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1">
+                </div>
+                <br>
+                <div class="form-group">
+                    <label for="telefono">Número de Teléfono</label>
+                    <input class="form-control" id="telefono">
+                </div>
+                <br>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Mensaje</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <br>
+                <button type="submit" class="btn btn-primary mb-2">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <!--FOOTER-->
+
+    <footer class="bg-dark text-center text-white">
+        <h4>Conectemos!!</h4>
+        <div class="container p-4 pb-0">
+            <section class="mb-4">
+                <!-- G-mail -->
+                <a class="btn btn-outline-light btn-floating m-1" href="mailto:mariangel.valerioet12d1@gmail.com" target="_blank" role="button"><i
+                        class="fa fa-envelope"></i></a>
+                <!-- Linkedin -->
+                <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/mariangel-valerio-5a2533256/" target="_blank" role="button"><i
+                        class="fab fa-linkedin-in"></i></a>
+                <!-- Github -->
+                <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/mariangelval" target="_blank" role="button"><i
+                        class="fab fa-github"></i></a>
+            </section>
+        </div>
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            &copy; 2024 Mariangel Valerio - Todos los derechos reservados
+        </div>
+    </footer>
+
+</body>
+
+</html>

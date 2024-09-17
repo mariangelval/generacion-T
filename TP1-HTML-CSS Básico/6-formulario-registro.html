@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Registro - Torneo de Fútbol</title>
+</head>
+<body>
+    <div class="form-container">
+        <h1>Registro para el Torneo de Fútbol</h1>
+        <form>
+                <label for="nombre">Nombre Completo:</label>
+                <input type="text" id="nombre" name="nombre">
+                <label for="edad">Edad:</label>
+                <input type="text" id="edad" name="edad">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                
+                <label for="categoria">Categoría:</label>
+                <select id="categoria" name="categoria" required>
+                    <option value="Sub-12">Sub-12</option>
+                    <option value="Sub-15">Sub-15</option>
+                    <option value="Sub-18">Sub-18</option>
+                </select>
+
+                <p>Posición en el Campo:</p>
+                <label>
+                    <input type="radio" name="posicion" value="Delantero"> Delantero
+                </label>
+                <label>
+                    <input type="radio" name="posicion" value="Mediocampista"> Mediocampista
+                </label>
+                <label>
+                    <input type="radio" name="posicion" value="Defensa"> Defensa
+                </label>
+                <label>
+                    <input type="radio" name="posicion" value="Portero"> Portero
+                </label>
+                <label>
+                    <input type="checkbox" name="terminos"> Acepto los <a href="#terminos">términos y condiciones</a>
+                </label>
+                <button type="submit">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -15,25 +15,50 @@
             justify-content: center;
             align-items: center; 
             height: 100vh;
+            position: relative;
         }
         
         img {
             height: 400px;
             width: 400px;
+            transition: opacity 0.3s ease;
         }
-        <!--Corregir-->
-        #magia{
+
+        #magia {
             height: 300px;
             width: 300px;
-            background-color: aqua;
+            background-color: rgba(0, 255, 255, 0);
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 10;
         }
-        
+
+        .hidden {
+            opacity: 0;
+        }
     </style>
 </head>
 <body>
     <div class="foto">
-        <img src="harrypotter.jpg" alt="Harry Potter">
+        <img id="harryPotterImg" src="harrypotter.jpg" alt="Harry Potter">
     </div>
     <div id="magia"></div>
+
+    <script>
+        
+        const magia = document.getElementById('magia');
+        const img = document.getElementById('harryPotterImg');
+
+       
+        magia.addEventListener('mouseover', () => {
+            img.classList.add('hidden');
+        });
+
+        magia.addEventListener('mouseout', () => {
+            img.classList.remove('hidden');
+        });
+    </script>
 </body>
 </html>
