@@ -1,16 +1,17 @@
 // Seleccionar el body
 const body = document.querySelector('body');
+const img = document.querySelector('.mouse');
 
-// Crear una variable para saber si el mouse está presionado
+// Variable para saber si el mouse está presionado
 let estaPresionado = false;
 
 // Evento para detectar cuando se presiona el mouse
-body.addEventListener('mousePresionado', function() {
+body.addEventListener('mousedown', function() {
     estaPresionado = true;
 });
 
 // Evento para detectar cuando se suelta el mouse
-body.addEventListener('mouse', function() {
+body.addEventListener('mouseup', function() {
     estaPresionado = false;
 });
 
@@ -18,7 +19,6 @@ body.addEventListener('mouse', function() {
 body.addEventListener('mousemove', function(event) {
     // Solo mover la imagen si el mouse está presionado
     if (estaPresionado) {
-        const img = document.querySelector('.mouse');
         img.style.top = event.clientY + 'px';
         img.style.left = event.clientX + 'px';
     }
